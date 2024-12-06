@@ -3,7 +3,7 @@ import viteConfig from './vite.config';
 
 export default defineConfig({
   component: {
-    port: 5173,
+    port: 3000,
     specPattern: 'cypress/component/**/*.cy.{js,jsx,ts,tsx}',
     devServer: {
       framework: 'react',
