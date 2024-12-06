@@ -11,7 +11,7 @@ export default defineConfig({
       viteConfig,
     },
   },
-
+//as we dont need to run e2e tests
   // e2e: {
   //   baseUrl: 'http://localhost:3001',
   //   setupNodeEvents(on, config) {
