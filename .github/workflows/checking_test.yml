@@ -9,19 +9,23 @@ jobs:
   test:
     name: Run Cypress Tests
     runs-on: ubuntu-latest
+
     steps:
+      # Step 1: Checkout the Code
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      # Step 2: Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 16.x
 
+      # Step 3: Install Dependencies
       - name: Install Dependencies
         run: |
           npm install
 
-      - name: Run Cypress Tests
+      - name: Start Server and Run Cypress
         run: |
-          npm run test
+          npx start-server-and-test 'npm start' http://localhost:3001 'npx cypress run --browser electron'
