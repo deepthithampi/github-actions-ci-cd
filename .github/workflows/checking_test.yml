@@ -28,6 +28,7 @@ jobs:
       - name: Build App
         run: npm run build
 
+      # Step 4: Start Server and Run Cypress
       - name: Start Server and Run Cypress
-        run: npx start-server-and-test 'npm start' http://localhost:3000 'npm run test-component'
+        run: 'npm start' http://localhost:3000 'npm run test-component'
           
