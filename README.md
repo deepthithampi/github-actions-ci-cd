@@ -12,6 +12,7 @@ Github-Actions-CI-CD creates a CI/CD pipeline using GitHub Actions to run compon
 - [Questions](#questions)
 - [Screenshots](#screenshots)
 - [Deployed Link](#deployed-link)
+- [GitHub Gist](#github-gist)
     
 ## Installation
 ```
@@ -43,5 +44,6 @@ You can also find more of my work at [deepthithampi](https://github.com/deepthit
 ## Deployed Link 
 (https://github-actions-ci-cd-qvj3.onrender.com)
 
-
+## GitHub Gist
+(https://gist.github.com/deepthithampi/14e5118eec7ccd5b621f4e927e5f04e6)
 
